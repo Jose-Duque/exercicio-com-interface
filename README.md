@@ -2,7 +2,8 @@
 Fazer um  Programa de pagamento com taxa do paypal. (JAVA)
 
 
-# Uma empresa deseja automatizar o processamento de seus contratos. O processamento de
+# Uma empresa deseja automatizar o processamento de seus contratos. 
+O processamento de
 um contrato consiste em gerar as parcelas a serem pagas para aquele contrato, com base no
 número de meses desejado.
 A empresa utiliza um serviço de pagamento online para realizar o pagamento das parcelas.
