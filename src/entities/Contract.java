@@ -15,12 +15,11 @@ public class Contract {
 	public Contract() {
 	}
 
-	public Contract(Integer number, Date date, Double totalValue, List<Installment> installments) {
+	public Contract(Integer number, Date date, Double totalValue) {
 		super();
 		this.number = number;
 		this.date = date;
 		this.totalValue = totalValue;
-		this.installments = installments;
 	}
 
 	public Integer getNumber() {

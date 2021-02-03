@@ -4,14 +4,13 @@ public class PaypalService implements OnlinePaymentService {
 
 	@Override
 	public Double paymentFee(Double amount) {
-		// TODO Auto-generated method stub
-		return null;
+		return amount * 0.02;
 	}
 
 	@Override
 	public Double interest(Double amount, Integer months) {
-		// TODO Auto-generated method stub
-		return null;
+		return	amount * months * 0.01;
+		
 	}
 
 }
